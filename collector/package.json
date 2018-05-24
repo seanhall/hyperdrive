@@ -1,0 +1,14 @@
+{
+  "name": "collector",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "kafka-node": "^2.4.1",
+    "uuid": "^3.2.1"
+  }
+}

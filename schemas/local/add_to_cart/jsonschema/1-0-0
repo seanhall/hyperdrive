@@ -1,0 +1,36 @@
+{
+    $schema: "http://localhost/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+    description: "Schema for an add-to-cart event",
+    self: {
+        vendor: "localhost",
+        name: "add_to_cart",
+        format: "jsonschema",
+        version: "1-0-0"
+    },
+    type: "object",
+    properties: {
+        product_id: {
+            type: "string"
+        },
+        name: {
+            type: "string"
+        },
+        category: {
+            type: "string"
+        },
+        price: {
+            type: "number"
+        },
+        quantity: {
+            type: "number"
+        },
+        currency: {
+            type: "string"
+        }
+    },
+    required: [
+        "sku",
+        "quantity"
+    ],
+    additionalProperties: false
+}

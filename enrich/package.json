@@ -1,0 +1,17 @@
+{
+  "name": "enrich",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "kafka-node": "^2.4.1",
+    "maxmind": "^2.5.0",
+    "mongodb": "^3.0.6",
+    "referer-parser": "0.0.3"
+  }
+}
